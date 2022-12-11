@@ -177,6 +177,7 @@ header .container {
     line-height: 1.1;
     max-width: 474px;
     margin: 0 auto;
+
 }
 
 .hero-order {
@@ -191,7 +192,7 @@ header .container {
     padding: 16px 32px;
     max-width: 635px;
     margin: 0 auto;
-    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 .hero-order:hover,
@@ -210,7 +211,10 @@ header .container {
 .visually-hidden { 
     position: absolute; white-space: nowrap; width: 1px; height: 1px; overflow: hidden; border: 0; padding: 0; clip: rect(0 0 0 0); clip-path: inset(50%); margin: -1px; }
 
-
+.advantages-style {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .advantages-headline {
     color: var(--navyblue);
     font-weight: 600;
@@ -229,30 +233,17 @@ header .container {
 .advantages-item {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
 
-.advantages-item> .item {
-    flex-basis: calc((100%-72px) / 4)
-    /* margin-left: 24px; */
+
+.advantages-item .item {
+    flex-basis: calc((100% - 72px) / 4);
 }
-
-    /* text-align: center;
-    margin-left: 15px;
-    margin-top: 120px;
-    display: flex;
-    width: 264px; */
-
-    .advantages-item .item {
-    width: 264px
-}
-
 
 /* job-profile */
 
 .profile {
-    margin-top: 120px;
+    padding-bottom: 120px;
 }
 
 .job-profile {
@@ -276,7 +267,7 @@ header .container {
 .section-teem-workers {
     background-color: var(--clode);
     padding-top: 120px;
-
+    padding-bottom: 120px;
 }
 
 .teem-workers {
@@ -314,7 +305,7 @@ header .container {
     display: flex;
     gap: 24px;
     margin-top: 72px;
-    padding-bottom: 120px;
+
 }
 
 /* portfolio */
@@ -392,13 +383,9 @@ header .container {
 
 /* footer */
 .end-page {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 156px;
-    padding-top: 100px;
     background-color: var(--navyblue);
-    height: 310px;
-    width: 1440px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
@@ -414,6 +401,7 @@ header .container {
     color: var(--cornflower);
     Font-size: 16px;
     line-height: 1.2;
-    padding-top: 16px;
-    padding-right: 1020px;
+    margin-top: 16px;
+    max-width: 264px;
+
 }
